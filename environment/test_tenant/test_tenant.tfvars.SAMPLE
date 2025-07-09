@@ -1,0 +1,6 @@
+log_analytics_workspace_name   = "sentinel-law01"                        # Replace with your actual Log Analytics Workspace name
+resource_group_name            = "rg-sentinel-law"                       # Replace with your actual resource group name
+management_group_id            = "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx"  # Replace with your actual management group ID
+diagnosticSettings_name        = "tf_mgmt_group_diagnostics"             # Replace with your preferred diagnostic settings name
+azapi_version                  = "2021-05-01-preview"                    # Replace with your actual azapi provider version
+log_analytics_subscription_id  = "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx"  # Replace with your actual subscription ID
